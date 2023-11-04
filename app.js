@@ -10,4 +10,4 @@
 
 let api_url = "https://jsonplaceholder.typicode.com/todos";
 
-fetch(api_url).then((response)=> console.log(response))
+fetch(api_url).then((response)=> console.log(response));
