@@ -1,3 +1,5 @@
-let api_url = "https://jsonplaceholder.typicode.com/todos"
+let api_url = "https://jsonplaceholder.typicode.com/todos";
 
-fetch(api_url).then((response)=> response.json).then((json)=> console.log(json))
+fetch(api_url)
+    .then((response)=> response.json)
+    .then((json)=> console.log(json));
